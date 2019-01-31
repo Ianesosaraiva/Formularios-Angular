@@ -1,0 +1,15 @@
+<div class="text-center">
+  <h4>Template</h4>
+</div>
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <div class="form-group">
+    <label for="nome">Nome</label>
+    <input type="nome" class="form-control" id="nome" aria-describedby="emailHelp" name="nome" placeholder="Digite seu nome" ngModel>
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email" ngModel>
+  </div>
+  <button type="submit" class="btn btn-primary">Enviar</button>
+
+</form>
